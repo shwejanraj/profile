@@ -254,3 +254,38 @@ ul {
 .fi{
   font-size: 1rem;
 }
+
+@media screen and (max-width:800px)  {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .container{
+    flex-direction: column;
+  }
+  .left-column{
+    width: 100%;
+  }
+  .right-column{
+    width: 100%;
+    margin-top: 0px;
+  }
+  .work{
+    /* height: 500px; */
+    padding: 15px;
+    padding-bottom: 50px;
+  }
+  .education{
+    padding: 15px;
+  }
+ /* .image-box, .contact-info{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ } */
+  .skills{
+    padding: 15px;
+  }
+}
