@@ -263,9 +263,12 @@ ul {
   }
   .container{
     flex-direction: column;
+    /* width: 100%; */
+    /* background-color: white; */
   }
   .left-column{
     width: 100%;
+    margin-right: 10px;
   }
   .right-column{
     width: 100%;
@@ -274,7 +277,7 @@ ul {
   .work{
     /* height: 500px; */
     padding: 15px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
   }
   .education{
     padding: 15px;
@@ -286,6 +289,7 @@ ul {
   width: 50%;
  } */
   .skills{
-    padding: 15px;
+    padding: 15px 0px 15px 15px;
+    
   }
 }
